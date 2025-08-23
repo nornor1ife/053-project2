@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>โปรเจ็กต์การสร้างเว็บไซต์</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Prompt", sans-serif;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }
+
+    /* ====== HEADER ====== */
+    header {
+      background: #004d26;
+      color: white;
+      padding: 15px;
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    /* ====== NAVBAR TOP ====== */
+    nav {
+      background: #00994d;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* ====== MAIN LAYOUT ====== */
+    .container {
+      flex: 1;
+      display: flex;
+    }
+
+    /* MENU LEFT */
+    aside {
+      width: 220px;
+      background: #004d26;
+      color: white;
+      padding: 20px;
+    }
+    aside h3 {
+      margin-top: 0;
+    }
+    aside ul {
+      list-style: none;
+      padding: 0;
+    }
+    aside ul li {
+      margin: 12px 0;
+    }
+    aside ul li a {
+      color: #ffeaa7;
+      text-decoration: none;
+    }
+    aside ul li a:hover {
+      text-decoration: underline;
+    }
+
+    /* CONTENT CENTER */
+    main {
+      flex: 1;
+      background: #006633;
+      color: white;
+      padding: 40px;
+      text-align: center;
+    }
+
+    /* FOOTER */
+    footer {
+      background: #003319;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+    footer a {
+      color: #74b9ff;
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    📘 โปรเจ็กต์การสร้างเว็บไซต์
+  </header>
+
+  <!-- NAVBAR -->
+  <nav>
+    <a href="#home">หน้าหลัก</a>
+    <a href="#objective">จุดประสงค์รายวิชา</a>
+    <a href="#competence">สมรรถนะรายวิชา</a>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <div class="container">
+    <!-- LEFT MENU -->
+    <aside>
+      <h3>หน่วยการเรียนรู้</h3>
+      <ul>
+        <li><a href="#">หน่วยการเรียนรู้ที่ 1</a></li>
+        <li><a href="#">หน่วยการเรียนรู้ที่ 2</a></li>
+        <li><a href="#">หน่วยการเรียนรู้ที่ 3</a></li>
+        <li><a href="#">หน่วยการเรียนรู้ที่ 4</a></li>
+        <li><a href="#">หน่วยการเรียนรู้ที่ 5</a></li>
+        <li><a href="#">หน่วยการเรียนรู้ที่ 6</a></li>
+        <li><a href="#">หน่วยการเรียนรู้ที่ 7</a></li>
+        <li><a href="#">หน่วยการเรียนรู้ที่ 8</a></li>
+        <li><a href="#">หน่วยการเรียนรู้ที่ 9</a></li>
+        <li><a href="#">หน่วยการเรียนรู้ที่ 10</a></li>
+        <li><a href="#">หน่วยการเรียนรู้ที่ 11</a></li>
+      </ul>
+    </aside>
+
+    <!-- CENTER CONTENT -->
+    <main>
+      <h1>ยินดีต้อนรับสู่เว็บไซต์</h1>
+      <p>ตรงนี้เป็นเนื้อหากลาง ใช้ตัวอักษรสีขาวบนพื้นหลังสี #006633</p>
+    </main>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    📞 เบอร์โทร: 000 0000 000 | 
+    📘 Facebook: <a href="https://facebook.com/" target="_blank">ติดต่อที่นี่</a>
+  </footer>
+
+</body>
+</html>
