@@ -7,7 +7,7 @@ body {
 
 /* พื้นหลังส่วนหัว */
 header {
-  background-color: #2a708b;
+  background-color: #78A3D4;
   color: rgb(0, 0, 0);
   position: relative;
   text-align: center; /* ทำให้ข้อความ h1 อยู่ตรงกลาง */
@@ -25,7 +25,7 @@ header {
 
 /* พื้นหลังเมนูนำทาง */
 nav {
-  background-color: #19e3f1;
+  background-color: #8BADD3;
   padding: 10px;
 }
 
@@ -46,7 +46,7 @@ nav a:hover {
 
 /* พื้นหลังเมนูด้านซ้าย */
 aside {
-  background-color: #f0f0f0;
+  background-color: #A6C3E4;
   width: 200px;
   padding: 15px;
 }
@@ -59,14 +59,14 @@ aside a {
 
 /* พื้นหลังเนื้อหาหลัก */
 main {
-  background-color: #00e1ff;
+  background-color: #CfE0EB;
   flex: 1;
   padding: 20px;
 }
 
 /* พื้นหลังส่วนท้าย */
 footer {
-  background-color: #4ceaff;
+  background-color: #9DCAEB;
   color: white;
   text-align: center;
   padding: 10px;
