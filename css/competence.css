@@ -1,0 +1,45 @@
+/* style สำหรับ body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #d7e9f7; /* ฟ้าพาสเทลอ่อน */
+    color: #2c3e50; /* สีฟ้าคล้ายกรม */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* style สำหรับ header */
+header {
+    background-color: #89bde0; /* ฟ้าพาสเทลเข้มขึ้น */
+    width: 100%;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+    border-radius: 0 0 15px 15px;
+}
+
+/* style สำหรับ h1 */
+h1 {
+    color: #f0f8ff; /* ฟ้าครามอ่อน */
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+/* style สำหรับ main และ p */
+main {
+    margin-top: 30px;
+    background-color: #b3d1f2; /* ฟ้าพาสเทลกลาง ๆ */
+    padding: 20px 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(137, 189, 224, 0.4);
+}
+
+p {
+    font-size: 1.2rem;
+    color: #1f2f46; /* ฟ้าคล้ำ */
+    margin: 0;
+}
