@@ -1,35 +1,27 @@
-/* กำหนดพื้นหลังของทั้งหน้า */
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #78A3D4; /* สีพื้นหลังรวม */
-  padding: 30px 0px;
-}
-
-/* พื้นหลังส่วนหัว */
+/* ส่วนหัว */
 header {
-  background-color: #78A3D4;
+  background-color: transparent;
   color: rgb(0, 0, 0);
   position: relative;
-  text-align: center; /* ทำให้ข้อความ h1 อยู่ตรงกลาง */
-  padding: 40px 20px; /* เพิ่ม padding ด้านบนและล่าง */ 
+  text-align: center;
+  padding: 40px 20px;
   font-family: 'Sarabun', sans-serif;
   font-size: 28px;
   font-weight: bold;
 }
 
-/* ปรับแต่งโลโก้ */
+/* โลโก้ */
 .logo {
-  position: absolute; 
-  left: 10px;     /* ขยับชิดซ้าย */
-  top: 50%;       /* กึ่งกลางแนวตั้ง */
-  transform: translateY(-50%); /* จัดให้อยู่กลางพอดี */
-  width: 120px;   /* ขยายโลโก้ */
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 120px;
 }
 
-/* พื้นหลังเมนูนำทาง */
+/* เมนูนำทาง */
 nav {
-  background-color: #78A3D4;
+  background-color: transparent;
   padding: 10px;
   text-align: right;
 }
@@ -49,29 +41,29 @@ nav a:hover {
   display: flex;
 }
 
-/* พื้นหลังเมนูด้านซ้าย */
+/* เมนูด้านซ้าย */
 aside {
-  background-color: #78A3D4;
+  background-color: transparent;
   width: 200px;
   padding: 15px;
 }
 
 /* สีตัวอักษรเมนูด้านซ้าย */
 aside a {
-  color: #000000; 
+  color: #000000;
   text-decoration: underline;
 }
 
-/* พื้นหลังเนื้อหาหลัก */
+/* เนื้อหาหลัก */
 section {
-  background-color: #78A3D4;
+  background-color: transparent;
   flex: 1;
   padding: 40px 20px;
 }
 
-/* พื้นหลังส่วนท้าย */
+/* ส่วนท้าย */
 footer {
-  background-color: #78A3D4;
+  background-color: transparent;
   color: white;
   text-align: center;
   padding: 10px;
